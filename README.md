@@ -4,7 +4,7 @@ Dans cet article, je vais illustrer une manière possible pour répondre à ce b
 
 ## Description du scenario
 
-Ici, nous avons un fichier excel qui contient les descriptions des colonnes de nos tables SQL. Vous noterez que la valeur de la colonne **"qualifiedName"** est le résultat d'une formule. Cela peut avoir de l'omportance, plus tard, dans le code python.
+Ici, nous avons un fichier Excel qui contient les descriptions des colonnes de nos tables SQL. Vous noterez que la valeur de la colonne **"qualifiedName"** est le résultat d'une formule. Cela peut avoir de l'importance, plus tard, dans le code python.
 
 ![Excel](Pictures/001.png)
 
