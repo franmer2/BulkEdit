@@ -1,6 +1,6 @@
 Une demande qui revient de temps en temps avec Azure Purview, est la possibilité de mettre à jour les propriétés des assets à partir d'un existant comme un fichier Excel.
 
-Dans cet article, je vais illustrer une manière possible pour répondre à ce besoin en utilisant les API Azure Purview. Au passage, Merci à [Will Johnson](https://github.com/wjohnson) pour son aide !
+Dans cet article, je vais illustrer une manière possible pour répondre à ce besoin en utilisant les APIs Azure Purview. Au passage, Merci à [Will Johnson](https://github.com/wjohnson) pour son aide !
 
 ## Description du scénario
 
@@ -70,7 +70,7 @@ for row in rows:
     )
 ```
 
-Après exécution du script, vous devriez voir vos assets Azure Purview mis à jour avec les valeurs provennant du fichier Excel comme illustré ci-dessous :
+Après exécution du script, vous devriez voir vos assets Azure Purview mis à jour avec les valeurs provenant du fichier Excel comme illustré ci-dessous :
 
 ![Purview](Pictures/004.png)
 
