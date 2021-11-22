@@ -26,7 +26,9 @@ Afin de pouvoir exécuter le script, il sera nécessaire :
 
 ## Le script
 
-Dans mon exemple, le fichier Excel se trouve sur mon disque dur local : "C:\Temp\Purview\Excel\ColumnDesc_Rich.xlsx"
+Dans mon exemple, le fichier Excel se trouve sur mon disque dur local : "C:\Temp\Purview\Excel\ColumnDesc_Rich.xlsx".
+
+Comme expliqué plus haut, mon fichier Excel contient une colonne dont le résultat provient d'une formule de calcul. Si l'on ne désire récupérer que la valeur de la cellule, et non la formule, il faut utiliser l'argument **"data_only=True"**. Sinon, sans cet argument, c'est la formule elle-même qui sera retournée.
 
 Copiez puis collez le script ci-dessous dans votre éditeur de code. 
 Complétez le code avec les informations de votre compte Azure Purview et de votre application AAD :
@@ -68,4 +70,9 @@ for row in rows:
     )
 ```
 
+Après exécution du script, vous devriez voir vos assets Azure Purview mis à jour avec les valeurs provennant du fichier Excel comme illustré ci-dessous :
+
+![Purview](Pictures/004.png)
+
+![Purview](Pictures/005.png)
 
