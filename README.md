@@ -2,7 +2,7 @@ Une demande qui revient de temps en temps avec Azure Purview, est la possibilit�
 
 Dans cet article, je vais illustrer une manière possible pour répondre à ce besoin en utilisant les API Azure Purview. Au passage, Merci à Will Jonhson pour son aide !
 
-## Description du scenario
+## Description du scénario
 
 Ici, nous avons un fichier Excel qui contient les descriptions des colonnes de nos tables SQL. Vous noterez que la valeur de la colonne **"qualifiedName"** est le résultat d'une formule. Cela peut avoir de l'importance, plus tard, dans le code python.
 
