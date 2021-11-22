@@ -76,3 +76,4 @@ Après exécution du script, vous devriez voir vos assets Azure Purview mis à j
 
 ![Purview](Pictures/005.png)
 
+Une vidéo illustrant cet article est disponible [ici](https://github.com/franmer2/BulkEdit/tree/main/Vid%C3%A9o)
