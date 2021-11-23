@@ -17,12 +17,14 @@ Ci-dessous, un exemple avec 2 assets. Le but étant de mettre à jour automatiqu
 
 ## Prerequis
 
-Afin de pouvoir exécuter le script, il sera nécessaire :
+Afin de pouvoir exécuter le script, il faudra :
 
-- D'enregistrer une [application dans Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
-- Ajouter cette application en tant que **"Data Curator"** au niveau de la collection **"Root"**. Plus de détails [ici](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions)
+- Installer Python et pip (pip est généralement inclus dans l'installation de Python)
 - Visual Studio Code (ou un autre éditeur de code)
-
+- Installer PyApacheAtlas via pip
+- Enregistrer une [application dans Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
+- Ajouter cette application en tant que **"Data Curator"** au niveau de la collection **"Root"**. Plus de détails [ici](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions)
+- 
 
 ## Le script
 
