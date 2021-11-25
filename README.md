@@ -23,7 +23,7 @@ Afin de pouvoir exécuter le script, il faudra :
 - Visual Studio Code (ou un autre éditeur de code)
 - Installer PyApacheAtlas via pip
 - Enregistrer une [application dans Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
-- Ajouter cette application en tant que **"Data Curator"** au niveau de la collection **"Root"**. Plus de détails [ici](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions)- 
+- Ajouter cette application en tant que **"Data Curator"** au niveau de la collection **"Root"**. Plus de détails [ici](https://docs.microsoft.com/en-us/azure/purview/catalog-permissions)
 
 ## Le script
 
